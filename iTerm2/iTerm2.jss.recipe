@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the current release version of iTerm 2 and makes a package. Then, uploads to the JSS.</string>
+	<string>Download iTerm2 | Create PKG | Upload to Runtastic JAMF.</string>
 	<key>Identifier</key>
-	<string>com.github.jss-recipes.jss.iTerm2</string>
+	<string>com.github.runtastic.jss.iTerm2</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -34,7 +34,7 @@
 	<key>MinimumVersion</key>
 	<string>0.3.1</string>
 	<key>ParentRecipe</key>
-	<string>io.github.hjuutilainen.pkg.iTerm2</string>
+	<string>com.github.runtastic.pkg.iTerm2</string>
 	<key>Process</key>
 	<array>
 		<dict>
